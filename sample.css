@@ -33,7 +33,7 @@ list-style-type: none;
 }
 @font-face{
     font-family: starjout;
-    src: url('font/Starjedi.ttf');
+    src: url('Starjedi.ttf');
 }
 .gallery
 {
