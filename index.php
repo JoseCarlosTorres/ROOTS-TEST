@@ -71,9 +71,9 @@ and open the template in the editor.
                     var char_gender = `${character.gender}`;
                     var char_species = `${response.name}`;
                     
-                    if (char_gender == "male") var gend_code = "imgs/male.png";
-                    else if (char_gender == "female") var gend_code = "imgs/female.png";
-                    else gend_code = "imgs/question.png";
+                    if (char_gender == "male") var gend_code = "male.png";
+                    else if (char_gender == "female") var gend_code = "female.png";
+                    else gend_code = "question.png";
                     
                     
                     a.innerHTML = `${character.name}, gender:`  ;
